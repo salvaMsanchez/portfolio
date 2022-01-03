@@ -1,0 +1,41 @@
+
+/* Small devices */
+@media (max-width: 768px) {  
+    .cuerpoSaludo .letrasSaludo {
+        font-size: 30px;
+        font-family: 'Bangers', cursive;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 769px) and (max-width: 992px) {  
+    .encabezado .letras {font-size: 30px;}
+    .menu .navbar-collapse .twitch, .menu .navbar-collapse .instagram, .menu .navbar-collapse .twitter {
+        display: none;
+    }
+    .cuerpoSaludo .letrasSaludo {
+        font-size: 30px;
+        font-family: 'Bangers', cursive;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 993px) and (max-width: 1200px) { 
+    .menu .navbar-collapse .twitch, .menu .navbar-collapse .instagram, .menu .navbar-collapse .twitter {
+        display: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1201px) {  
+    .class-name {font-size: 48px;}
+    .encabezado .encabezadoConjunto {
+      position: relative;
+      left: 30px;
+      margin: 0;
+      padding: 0;}
+    .menu .navbar-collapse .twitch, .menu .navbar-collapse .instagram, .menu .navbar-collapse .twitter {
+        display: none;
+    }
+    
+}

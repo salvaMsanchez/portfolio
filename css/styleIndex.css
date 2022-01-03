@@ -1,0 +1,337 @@
+
+html{
+  scroll-behavior: smooth;
+  }
+
+body {
+  background-color: rgb(224, 236, 228);
+}
+
+.menu {
+    background-color: rgb(3, 5, 119);
+    opacity: 0.9;
+  }
+  
+  .menu .navbar {
+    background-color: rgb(3, 5, 119);
+    
+  }
+  
+  .menu .navbar .logotipo {
+    color: whitesmoke;
+  }
+  
+  .menu .navbar .logotipo:hover {
+    color: tomato;
+  }
+  
+  .menu .navbar .nav-link {
+    color: whitesmoke;
+    font-family: 'Quantico', sans-serif;
+  }
+  
+  .menu .navbar .nav-link:hover {
+    color: tomato;
+  }
+  
+  .menu .navbar .dropdown-item {
+    color: black;
+  }
+ 
+  .menu .navbar .logotipo svg {
+    color: white;
+    height: 28px;
+    width: 28px;
+  }
+
+  .menu .navbar .logotipo svg:hover {
+    color: tomato;
+  }
+
+  .menu .navbar-toggler svg {
+    color: white;
+    height: 28px;
+    width: 28px;
+  }
+
+  .cuerpoSaludo .letrasSaludo {
+      font-size: 50px;
+      font-family: 'Bangers', cursive;
+      color: rgb(3, 5, 119);
+  }
+
+.cuerpoSaludo .saludo .descripcion {
+  font-weight: bold;
+  color: tomato;
+  font-style: normal;
+}
+
+
+.sobreMiTitulo .sobreMiEnunciado {
+  margin-left: 4%;
+}
+
+.sobreMiTitulo .sobreMi1 {
+    font-size: 20px;
+    color: tomato;
+    border-bottom: 2px solid tomato;
+    font-family: 'Bangers', cursive;
+}
+
+.sobreMiTitulo .sobreMi2 {
+    font-size: 35px;
+    color: rgb(47, 58, 143);
+    font-family: 'Bangers', cursive;
+}
+
+.sobreMiCuerpo .sobreMiTexto {
+    font-size: 20px;
+    font-family: 'Quantico', sans-serif;
+}
+
+.fotoCara {
+  box-shadow: 7px 7px tomato;
+}
+
+.carreraTitulo .carreraEnunciado {
+  margin-left: 4%;
+}
+
+.carreraTitulo .carrera1 {
+    font-size: 20px;
+    color: tomato;
+    border-bottom: 2px solid tomato;
+    font-family: 'Bangers', cursive;
+}
+
+.carreraTitulo .carrera2 {
+    font-size: 35px;
+    color: rgb(47, 58, 143);
+    font-family: 'Bangers', cursive;
+}
+
+.carreraCuerpo .carreraTabla {
+  font-family: 'Quantico', sans-serif;
+}
+
+.carreraCuerpo .carreraTabla td{
+  color: rgb(47, 58, 143);
+}
+
+.idiomasTitulo .idiomasEnunciado {
+  margin-left: 4%;
+}
+
+.idiomasTitulo .idiomas1 {
+    font-size: 20px;
+    color: tomato;
+    border-bottom: 2px solid tomato;
+    font-family: 'Bangers', cursive;
+}
+
+.idiomasTitulo .idiomas2 {
+    font-size: 35px;
+    color: rgb(47, 58, 143);
+    font-family: 'Bangers', cursive;
+}
+
+.idiomas .label {
+  font-family: 'Quantico', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(47, 58, 143);
+  margin-bottom: 10px;
+}
+
+.idiomas .progress {
+  background-color: rgba(255, 99, 71, 0.281);
+  height: 25px;
+}
+
+.idiomas .progress .progress-bar {
+  background-color: rgb(47, 58, 143);
+  line-height: 25px;
+}
+
+.supervivenciaTitulo .supervivenciaEnunciado {
+  margin-left: 4%;
+}
+
+.supervivenciaTitulo .supervivencia1 {
+    font-size: 20px;
+    color: tomato;
+    border-bottom: 2px solid tomato;
+    font-family: 'Bangers', cursive;
+}
+
+.supervivenciaTitulo .supervivencia2 {
+    font-size: 35px;
+    color: rgb(47, 58, 143);
+    font-family: 'Bangers', cursive;
+}
+
+.supervivenciaCuerpo .supervivenciaTexto {
+  font-size: 20px;
+  font-family: 'Quantico', sans-serif;
+}
+
+.fotoMeme {
+box-shadow: 7px 7px tomato;
+}
+
+.herramientasTitulo .herramientasEnunciado {
+  margin-left: 4%;
+}
+
+.herramientasTitulo .herramientas1 {
+    font-size: 20px;
+    color: tomato;
+    border-bottom: 2px solid tomato;
+    font-family: 'Bangers', cursive;
+}
+
+.herramientasTitulo .herramientas2 {
+    font-size: 35px;
+    color: rgb(47, 58, 143);
+    font-family: 'Bangers', cursive;
+}
+
+.herramientasCuerpo p {
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+}
+
+.devicon-html5-plain, .devicon-css3-plain, .devicon-javascript-plain, .devicon-bootstrap-plain, .devicon-vscode-plain, .devicon-python-plain, .devicon-jupyter-plain, .devicon-pycharm-plain, .devicon-pandas-original, .devicon-wordpress-plain {
+  color: tomato;
+}
+
+.actualmenteTitulo .actualmenteEnunciado {
+  margin-left: 4%;
+}
+
+.actualmenteTitulo .actualmente1 {
+  color: rgb(47, 58, 143);
+  font-family: 'Bangers', cursive;
+}
+
+.actualmenteTitulo .actualmente2 {
+  font-size: 20px;
+  font-family: 'Quantico', sans-serif;
+}
+
+.trabajoTitulo .trabajoEnunciado {
+  margin-left: 4%;
+}
+
+.trabajoTitulo .trabajo1 {
+    font-size: 20px;
+    color: tomato;
+    border-bottom: 2px solid tomato;
+    font-family: 'Bangers', cursive;
+}
+
+.trabajoTitulo .trabajo2 {
+    font-size: 35px;
+    color: rgb(47, 58, 143);
+    font-family: 'Bangers', cursive;
+}
+
+.trabajoCuerpo p {
+    text-align: center;
+}
+
+.trabajoCuerpo .trabajoTexto {
+  font-size: 20px;
+  font-family: 'Quantico', sans-serif;
+}
+
+.trabajoCuerpo .trabajoTexto .titulo {
+  font-family: 'Bangers', cursive;
+  color: rgb(47, 58, 143);
+}
+
+.trabajoCuerpo .video {
+  box-shadow: 7px 7px tomato;
+}
+
+.trabajoCuerpo img {
+  box-shadow: 7px 7px tomato;
+}
+
+.testimonioTitulo .testimonioEnunciado {
+  margin-left: 4%;
+}
+
+.testimonioTitulo .testimonio1 {
+    font-size: 20px;
+    color: tomato;
+    border-bottom: 2px solid tomato;
+    font-family: 'Bangers', cursive;
+}
+
+.testimonioTitulo .testimonio2 {
+    font-size: 35px;
+    color: rgb(47, 58, 143);
+    font-family: 'Bangers', cursive;
+}
+
+.testimonioCuerpo .cita {
+  font-family: 'Quantico', sans-serif;
+}
+
+.contactoTitulo .contactoEnunciado {
+  margin-left: 4%;
+}
+
+.contactoTitulo .contacto1 {
+    font-size: 20px;
+    color: tomato;
+    border-bottom: 2px solid tomato;
+    font-family: 'Bangers', cursive;
+}
+
+.contactoTitulo .contacto2 {
+    font-size: 35px;
+    color: rgb(47, 58, 143);
+    font-family: 'Bangers', cursive;
+}
+
+.email {
+  font-size: 17px; 
+  color: rgb(47, 58, 143); 
+  background-color: tomato; 
+  border-radius: 20px;
+  padding: 5px 22px 5px 22px;
+  transition: 1s;
+  font-family: 'Quantico', sans-serif;
+}
+
+.email:hover {
+  font-size: 23px; 
+  color: white; 
+  background-color: tomato; 
+  border-radius: 20px;
+  padding: 15px 30px 15px 30px;
+}
+
+.iconoContacto {
+  color: rgb(47, 58, 143);
+  transition: 1s;
+}
+
+.iconoContacto:hover {
+  color: tomato;
+  width: 55px;
+  height: 55px;
+}
+
+.footer {
+  background-color: rgb(47, 58, 143);
+}
+
+.footer .letrasFooter {
+  color: white;
+  font-family: 'Quantico', sans-serif;
+}
+
+
